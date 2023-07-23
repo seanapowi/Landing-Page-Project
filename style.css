@@ -134,6 +134,25 @@ body {
     margin-bottom: 10px ;
 }
 
+/* End of information section - part one */
+
+/* Information section - part two */
+.info-two-container,
+.info-two-content {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding: 30px 250px 0 250px;
+    color: #1f2937;
+}
+.author {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 280px;
+    margin-bottom: 100px;
+}
 /*footer */
 .footer {
     background: #1f2937;
