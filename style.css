@@ -38,6 +38,10 @@ body {
     list-style: none;
 }
 
+li {
+    cursor: pointer;
+}
+
 .secondary-text, li  {
     font-size: 18px;
     color: #e5e7eb;
@@ -90,8 +94,9 @@ body {
     width: 150px;
     height: 50px;
     font-size: 18px;
-    border-radius: 5px 5px;
+    border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* End of hero section */
@@ -153,10 +158,45 @@ body {
     margin-right: 280px;
     margin-bottom: 100px;
 }
+
+/* End of information section - part two */
+
+/* Information section - part three */
+
+.info-three-container {
+    display: flex;
+    padding: 100px 350px;
+    justify-content: center;
+}
+.info-container {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px 150px;
+    gap: 5          0px;
+    justify-content: space-between;
+    flex: 1;
+}
+.left-info,
+.title-content {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-info,
+.small-content {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.section-botton {
+    border: 2px solid white ;
+}
 /*footer */
 .footer {
     background: #1f2937;
     color: whitesmoke;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
 }
